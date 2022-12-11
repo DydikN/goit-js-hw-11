@@ -1,8 +1,6 @@
-export { renderGallery };
-
 const gallery = document.querySelector('.gallery');
 
-function renderGallery(images) {
+export function galleryMarkup(images) {
   const markup = images
     .map(image => {
       const {
