@@ -17,8 +17,6 @@ const perPage = 40;
 searchForm.addEventListener('submit', onSearchForm);
 loadMoreBtn.addEventListener('click', onLoadMoreBtn);
 
-onScroll();
-
 function onSearchForm(e) {
   e.preventDefault();
   window.scrollTo({ top: 0 });
